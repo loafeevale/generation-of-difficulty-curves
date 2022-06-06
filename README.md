@@ -62,12 +62,3 @@ Resultado do processamento do algoritmo para os parâmetros do jogo "Desafio dos
 ![](/_Images/Image_05.png)
 
 ![](/_Images/Image_06.png)
-
-
-## Créditos
-
-Trabalho de conclusão da graduação em Ciências da Computação pela Universidade Feevale.
-
-Desenvolvido por: **Saulo Marcos Corrêa**
-
-Orientado por: **João Batista Mossmann**
