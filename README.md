@@ -1,8 +1,18 @@
 # Model for Automatic Generation of Difficulty Curves in Digital Games
 
+## Pastas do projeto
+
+**_01-StaticCurveDataExecutable_** - Executável do gerador de curvas estáticas.
+
+**_01-StaticCurveDataProject_** - Código fonte do projeto que gera as curvas estáticas.
+
+**_02-StatisticalCode_** - Código fonte dos cálculos estatísticos que geram _cases_ de curvas adaptativas.
+
+**_03-FinalResultsData_** - Planilhas que demonstram os resultados finais do estudo com atividade "Desafio dos Opostos".
+
 ## Executável
 
-> Executável disponível em: _/ExecutableAndResults/**APOLLOeROSETTA.exe**_
+> Executável disponível em: _/01-StaticCurveDataExecutable/**APOLLOeROSETTA.exe**_
 
 Ao rodar o executável mencionado acima, ele gera os arquivos que estão na pasta:
 
@@ -10,13 +20,13 @@ Ao rodar o executável mencionado acima, ele gera os arquivos que estão na past
 
 Os arquivos CSV contém dados de dificuldade de cada nivel, do 1 ao 63 – mas o algortimo consegue rodas a lógica até “N”.
 
-Abaixo um exemplo da interação do algoritmo para o "Desafio dos Opostos Cósmicos".
+Abaixo um exemplo da interação do algoritmo para o "Desafio dos Opostos".
 
 ![](/_Images/Image_02.png)
 
 Para todos os minijogos a estrutura dos algoritmos é a mesma. Ele recebe uma tabela com valores necessários para gerar a curva desenhada pelo projeto do jogo.
 
-Tomando como base o _mini game_ "Desafio dos Opostos Cósmicos", temos a seguinte tabela base:
+Tomando como base o _mini game_ "Desafio dos Opostos", temos a seguinte tabela base:
 
 ![](/_Images/Image_03.png)
 
@@ -57,8 +67,10 @@ Da mesma forma acontece nas outras colunas.
 
 O valor da linha do gráfico é o resultado da aplicação do valor de cada característica ao seu respectivo peso.
 
-Resultado do processamento do algoritmo para os parâmetros do jogo "Desafio dos Opostos Cósmicos".
+Resultado do processamento do algoritmo para os parâmetros do jogo "Desafio dos Opostos".
 
 ![](/_Images/Image_05.png)
 
 ![](/_Images/Image_06.png)
+
+
